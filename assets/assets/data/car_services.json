@@ -1,0 +1,63 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": "mobile_services",
+      "category": "خدمات متنقلة",
+      "icon": "home_repair_service_rounded",
+      "color": "0xFF2196F3",
+      "subServices": [
+        { "id": "bat_change", "name": "تبديل بطارية", "icon": "battery_charging_full_rounded" },
+        { "id": "oil_change", "name": "تغيير زيت", "icon": "oil_barrel_rounded" },
+        { "id": "acc_est", "name": "تقدير الحوادث", "icon": "assignment_rounded" },
+        { "id": "glass_rep", "name": "إصلاح زجاج", "icon": "平_glass_rounded" },
+        { "id": "dash_cam", "name": "داش كام", "icon": "videocam_rounded" },
+        { "id": "tow_to_agency", "name": "نقل إلى الوكالة", "icon": "local_shipping_rounded" },
+        { "id": "periodic_insp", "name": "الفحص الدوري", "icon": "fact_check_rounded" },
+        { "id": "wipers", "name": "مساحات", "icon": "auto_awesome_motion_rounded" }
+      ]
+    },
+    {
+      "id": "care_protection",
+      "category": "العناية والحماية",
+      "icon": "shield_rounded",
+      "color": "0xFF4CAF50",
+      "subServices": [
+        { "id": "ppf_films", "name": "أفلام PPF", "icon": "layers_rounded" },
+        { "id": "thermal_tint", "name": "تظليل عازل", "icon": "wb_sunny_rounded" }
+      ]
+    },
+    {
+      "id": "repair_accidents",
+      "category": "إصلاح الأعطال",
+      "icon": "build_circle_rounded",
+      "color": "0xFFF44336",
+      "subServices": [
+        { "id": "accident_rep", "name": "إصلاح حادث", "icon": "car_crash_rounded" },
+        { "id": "mech_elec", "name": "ميكانيك وكهرباء", "icon": "settings_suggest_rounded" }
+      ]
+    },
+    {
+      "id": "washing_polishing",
+      "category": "الغسيل والتلميع",
+      "icon": "local_car_wash_rounded",
+      "color": "0xFF00BCD4",
+      "subServices": [
+        { "id": "steam_wash", "name": "غسيل بخار", "icon": "cloud_done_rounded" },
+        { "id": "wash_plus", "name": "غسيل بلس", "icon": "add_circle_outline_rounded" },
+        { "id": "wash_express", "name": "غسيل إكسبرس", "icon": "speed_rounded" },
+        { "id": "polishing", "name": "تلميع السيارة", "icon": "auto_fix_high_rounded" }
+      ]
+    },
+    {
+      "id": "spare_parts",
+      "category": "قطع غيار",
+      "icon": "settings_input_component_rounded",
+      "color": "0xFFFF9800",
+      "subServices": [
+        { "id": "used_parts", "name": "قطع غيار مستعمل", "icon": "recycling_rounded" },
+        { "id": "new_parts", "name": "قطع غيار جديد", "icon": "shopping_cart_checkout_rounded" }
+      ]
+    }
+  ]
+}

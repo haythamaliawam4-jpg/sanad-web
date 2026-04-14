@@ -1,0 +1,97 @@
+
+ {
+  "status": "success",
+  "data": [
+    {
+      "id": "cleaning_general",
+      "category": "تنظيف المنزل",
+      "icon": "home_work_rounded",
+      "color": "0xFF2196F3",
+      "subServices": [
+        { "id": "home_cl_01", "name": "تنظيف المنزل", "icon": "cleaning_services_rounded" },
+        { "id": "resident_maid_02", "name": "عاملة مقيمة", "icon": "person_search_rounded" }
+      ]
+    },
+    {
+      "id": "cleaning_specialized",
+      "category": "تنظيف متخصص",
+      "icon": "cleaning_services_rounded",
+      "color": "0xFF00BCD4",
+      "subServices": [
+        { "id": "deep_kit_01", "name": "تنظيف عميق للمطبخ", "icon": "soup_kitchen_rounded" },
+        { "id": "deep_bath_02", "name": "تنظيف عميق للحمام", "icon": "bathtub_rounded" },
+        { "id": "furn_cl_03", "name": "تنظيف أثاث", "icon": "chair_rounded" },
+        { "id": "carp_cl_04", "name": "تنظيف سجاد", "icon": "layers_rounded" },
+        { "id": "sanit_05", "name": "تعقيم وتطهير", "icon": "sanitizer_rounded" },
+        { "id": "matt_cl_06", "name": "تنظيف مراتب", "icon": "bed_rounded" },
+        { "id": "curt_cl_07", "name": "تنظيف ستائر", "icon": "texture_rounded" },
+        { "id": "tank_cl_08", "name": "تنظيف خزان المياه", "icon": "water_drop_rounded" }
+      ]
+    },
+    {
+      "id": "beauty_massage",
+      "category": "خدمات التجميل والمساج",
+      "icon": "spa_rounded",
+      "color": "0xFFE91E63",
+      "subServices": [
+        { "id": "mani_padi_01", "name": "مناكير وباديكير", "icon": "dry_cleaning_rounded" },
+        { "id": "relax_msg_02", "name": "مساج استرخائي", "icon": "self_improvement_rounded" },
+        { "id": "med_msg_03", "name": "مساج علاجي", "icon": "health_and_safety_rounded" },
+        { "id": "moroc_bath_04", "name": "حمام مغربي", "icon": "hot_tub_rounded" },
+        { "id": "cupping_05", "name": "مساج كاسات الهواء", "icon": "blur_circular_rounded" },
+        { "id": "lym_msg_06", "name": "المساج اللمفاوي", "icon": "waves_rounded" },
+        { "id": "wood_msg_08", "name": "مساج الأخشاب", "icon": "grid_view_rounded" },
+        { "id": "stone_msg_09", "name": "مساج الأحجار الساخنة", "icon": "brightness_low_rounded" }
+      ]
+    },
+    {
+      "id": "skincare_women",
+      "category": "عناية البشرة للسيدات",
+      "icon": "face_retouching_natural_rounded",
+      "color": "0xFF9C27B0",
+      "subServices": [
+        { "id": "wax_01", "name": "إزالة الشعر بالشمع", "icon": "auto_fix_high_rounded" },
+        { "id": "threading_02", "name": "فتلة الوجه", "icon": "face_retouching_natural_rounded" },
+        { "id": "facial_03", "name": "تنظيف بشرة الوجه", "icon": "face_5_rounded" }
+      ]
+    },
+    {
+      "id": "pest_control",
+      "category": "مكافحة الآفات",
+      "icon": "bug_report_rounded",
+      "color": "0xFF795548",
+      "subServices": [
+        { "id": "bed_bugs_01", "name": "علاج بق الفراش", "icon": "bed_rounded" },
+        { "id": "roach_02", "name": "مكافحة الصراصير", "icon": "bug_report_rounded" },
+        { "id": "rodent_03", "name": "مكافحة الفئران", "icon": "pest_control_rodent_rounded" },
+        { "id": "termite_05", "name": "مكافحة النمل الأبيض", "icon": "pest_control_rounded" }
+      ]
+    },
+    {
+      "id": "home_maintenance",
+      "category": "صيانة المنزل",
+      "icon": "handyman_rounded",
+      "color": "0xFFFF9800",
+      "subServices": [
+        { "id": "furniture_asm_01", "name": "فك وتركيب أثاث", "icon": "weekend_rounded" },
+        { "id": "electrician_02", "name": "أخصائي كهربائي", "icon": "electrical_services_rounded" },
+        { "id": "plumbing_03", "name": "أعمال سباكة", "icon": "plumbing_rounded" },
+        { "id": "carpentry_04", "name": "أعمال نجارة", "icon": "carpenter_rounded" },
+        { "id": "painting_06", "name": "خدمات الدهان", "icon": "format_paint_rounded" }
+      ]
+    },
+    {
+      "id": "others",
+      "category": "خدمات الدعم والضيافة",
+      "icon": "volunteer_activism_rounded",
+      "color": "0xFF4CAF50",
+      "subServices": [
+        { "id": "laundry_01", "name": "غسيل الملابس", "icon": "local_laundry_service_rounded" },
+        { "id": "ironing_02", "name": "كي الملابس", "icon": "iron_rounded" },
+        { "id": "moving_03", "name": "نقل الأثاث", "icon": "local_shipping_rounded" },
+        { "id": "pet_care_04", "name": "عناية بالحيوانات", "icon": "pets_rounded" },
+        { "id": "babysitting_06", "name": "جليسة أطفال", "icon": "child_care_rounded" }
+      ]
+    }
+  ]
+}

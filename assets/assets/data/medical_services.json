@@ -1,0 +1,54 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": "home_doctor",
+      "category": "كشف طبي منزلي",
+      "icon": "medical_services_rounded",
+      "color": "0xFFF44336",
+      "subServices": [
+        { "id": "gen_doc_01", "name": "طبيب عام (زيارة منزلية)", "icon": "medical_information_rounded" },
+        { "id": "pedi_doc_02", "name": "أخصائي أطفال", "icon": "child_care_rounded" },
+        { "id": "int_doc_03", "name": "أخصائي باطنية", "icon": "monitor_heart_rounded" },
+        { "id": "orth_doc_04", "name": "طبيب عظام", "icon": "settings_accessibility_rounded" }
+      ]
+    },
+    {
+      "id": "nursing_care",
+      "category": "تمريض ورعاية منزلية",
+      "icon": "person_add_alt_1_rounded",
+      "color": "0xFF2196F3",
+      "subServices": [
+        { "id": "nurse_vis_01", "name": "تمريض منزلي (بالزيارة)", "icon": "vaccines_rounded" },
+        { "id": "nurse_res_02", "name": "تمريض مقيم (24 ساعة)", "icon": "home_health_services_rounded" },
+        { "id": "wound_care_03", "name": "غيار على الجروح", "icon": "healing_rounded" },
+        { "id": "iv_cath_04", "name": "تركيب محاليل وقسطرة", "icon": "water_drop_rounded" },
+        { "id": "elder_care_05", "name": "رعاية كبار السن", "icon": "elderly_rounded" }
+      ]
+    },
+    {
+      "id": "lab_tests",
+      "category": "مختبر وتحاليل",
+      "icon": "biotech_rounded",
+      "color": "0xFF4CAF50",
+      "subServices": [
+        { "id": "blood_samp_01", "name": "سحب عينات دم منزلي", "icon": "bloodtype_rounded" },
+        { "id": "sugar_test_02", "name": "فحص السكر التراكمي", "icon": "biotech_rounded" },
+        { "id": "liver_kid_03", "name": "تحليل وظائف كبد وكلى", "icon": "science_rounded" },
+        { "id": "vit_test_04", "name": "فحص فيتامينات شامل", "icon": "medication_liquid_rounded" }
+      ]
+    },
+    {
+      "id": "physiotherapy",
+      "category": "علاج طبيعي",
+      "icon": "accessibility_new_rounded",
+      "color": "0xFFFF9800",
+      "subServices": [
+        { "id": "physio_ses_01", "name": "جلسة علاج طبيعي منزلي", "icon": "accessibility_new_rounded" },
+        { "id": "rehab_post_02", "name": "تأهيل بعد العمليات", "icon": "wheelchair_pickup_rounded" },
+        { "id": "med_msg_03", "name": "مساج علاجي للمفاصل", "icon": "spa_rounded" },
+        { "id": "muscle_str_04", "name": "تمارين تقوية العضلات", "icon": "fitness_center_rounded" }
+      ]
+    }
+  ]
+}
