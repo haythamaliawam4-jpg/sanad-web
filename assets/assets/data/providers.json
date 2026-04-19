@@ -1,0 +1,92 @@
+{
+  "status": "success",
+  "providers": [
+    {
+      "id": "prov_car_001",
+      "name": "أوتو فيكس للمحركات",
+      "type": "cars",
+      "logo": "assets/images/logos/autofix.png",
+      "rating": 4.9,
+      "distance": "5.2 km",
+      "bio": "مركز متكامل لصيانة السيارات الأوروبية والأمريكية بأحدث الأجهزة.",
+      "services": [
+        { "service_id": "oil_change", "price": 180, "duration": "45 min" },
+        { "service_id": "bat_change", "price": 420, "duration": "30 min" },
+        { "service_id": "mech_elec", "price": 250, "duration": "ساعة فحص" },
+        { "service_id": "periodic_insp", "price": 100, "duration": "60 min" }
+      ]
+    },
+    {
+      "id": "prov_car_002",
+      "name": "مغسلة بريق الصحراء",
+      "type": "cars",
+      "logo": "assets/images/logos/desert_shine.jpg",
+      "rating": 4.6,
+      "distance": "3.0 km",
+      "bio": "متخصصون في الغسيل الساطع والتلميع الخارجي والداخلي.",
+      "services": [
+        { "service_id": "steam_wash", "price": 80, "duration": "40 min" },
+        { "service_id": "wash_express", "price": 45, "duration": "15 min" },
+        { "service_id": "polishing", "price": 550, "duration": "4 hours" }
+      ]
+    },
+    {
+      "id": "prov_home_001",
+      "name": "شركة ناصع للتنظيف",
+      "type": "home",
+      "logo": "assets/images/logos/clean_co.png",
+      "rating": 4.7,
+      "distance": "8.0 km",
+      "bio": "نوفر أفضل الكوادر المدربة لتنظيف المنازل والتعقيم بأجود المواد.",
+      "services": [
+        { "service_id": "home_cl_01", "price": 200, "duration": "4 hours" },
+        { "service_id": "deep_kit_01", "price": 350, "duration": "3 hours" },
+        { "service_id": "carp_cl_04", "price": 120, "duration": "per piece" },
+        { "service_id": "sanit_05", "price": 150, "duration": "60 min" }
+      ]
+    },
+    {
+      "id": "prov_home_002",
+      "name": "مؤسسة المطرقة للصيانة",
+      "type": "home",
+      "logo": "assets/images/logos/hammer_fix.png",
+      "rating": 4.5,
+      "distance": "12 km",
+      "bio": "إصلاحات السباكة والكهرباء والنجارة بضمان معتمد.",
+      "services": [
+        { "service_id": "electrician_02", "price": 100, "duration": "زيارة فحص" },
+        { "service_id": "plumbing_03", "price": 90, "duration": "زيارة فحص" },
+        { "service_id": "furniture_asm_01", "price": 150, "duration": "حسب القطع" }
+      ]
+    },
+    {
+      "id": "prov_med_001",
+      "name": "مجمع الشفاء الطبي",
+      "type": "medical",
+      "logo": "assets/images/logos/shifa_med.png",
+      "rating": 5.0,
+      "distance": "4.5 km",
+      "bio": "رعاية طبية منزلية متكاملة وتحاليل مخبرية فورية.",
+      "services": [
+        { "service_id": "gen_doc_01", "price": 300, "duration": "زيارة كشف" },
+        { "service_id": "blood_samp_01", "price": 120, "duration": "سحب عينة" },
+        { "service_id": "nurse_vis_01", "price": 150, "duration": "زيارة تمريض" },
+        { "service_id": "vit_test_04", "price": 850, "duration": "باقة شاملة" }
+      ]
+    },
+    {
+      "id": "prov_med_002",
+      "name": "مركز الحركة للعلاج الطبيعي",
+      "type": "medical",
+      "logo": "assets/images/logos/motion_physio.jpg",
+      "rating": 4.8,
+      "distance": "7.2 km",
+      "bio": "أخصائيون معتمدون لإعادة التأهيل والعلاج الطبيعي المنزلي.",
+      "services": [
+        { "service_id": "physio_ses_01", "price": 250, "duration": "60 min" },
+        { "service_id": "rehab_post_02", "price": 280, "duration": "60 min" },
+        { "service_id": "muscle_str_04", "price": 200, "duration": "45 min" }
+      ]
+    }
+  ]
+}
